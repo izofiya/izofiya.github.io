@@ -1,0 +1,89 @@
+body{
+    background: #4a99d3;
+    margin: 110px auto 0 auto;
+    width: 1200px;
+}
+#position{
+    position: relative;
+    z-index: 5;
+    width: 950px;
+    margin: 0 auto;
+}
+#cloud-1{
+	position: absolute;
+    z-index: 15;
+    top: -59px;
+    right: -44px;
+	animation: mymove 10s;
+}
+#cloud-2{
+    position: absolute;
+    z-index: 5;
+    top: 201px;
+    right: -109px;
+}
+#cloud-3{
+	position: absolute;
+    z-index: 5;
+    top: 248px;
+    right: 620px;
+
+}
+#cloud-4{
+    position: absolute;
+    z-index: 5;
+    top: 47px;
+    left: -115px;
+}
+#content{
+    position: relative;
+    z-index: 10;
+    background: rgba(33, 63, 98, 0.8);
+    width: 799px;
+    min-height: 1390px;
+    margin: 0 auto;
+}
+h1, h2, p{
+	margin: 26px 75px 0 85px;
+	color: white;
+}
+h1{
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: normal;
+}
+p{
+    font-size: 14px;
+}
+h2{
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: normal;
+}
+#images{
+	text-align: center;
+	margin-top: 175px;
+	}
+#images img{
+	margin: 0 7px;
+}
+#icons{
+    position: absolute;
+    z-index: 15;
+    top: 0px;
+    left: -41px;
+    width: 39px;
+}
+footer{
+    position: absolute;
+    z-index: 15;
+    width: 100%;
+    background: url(../img/grass.png);
+    height: 130px;
+    margin-top: -130px;
+	right: 0;
+}
+@keyframes mymove {
+    from {left: -260px;}
+    to {left: 748px;}
+}
