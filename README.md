@@ -1,2 +1,2 @@
-# Zoya Pleskatsevich
+Zoya Pleskatsevich
 My first published site
