@@ -1,0 +1,172 @@
+body{
+	background: url('../img/home.jpg');
+	background-size: cover;
+	}
+h1{
+	color: #8a0e0e;
+	font-size: 70px;
+	text-align: center;
+	text-decoration: overline;
+	font-style: italic;	
+	}
+h2{
+	color: #386962;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Comic Sans MS;
+    font-style: normal;
+    margin: 5px;
+	}
+p{
+	text-indent: 1.5em; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+	font-size: 20px;
+	font-family: fantasy;
+}
+.overline{
+	text-decoration: underline;
+    color: #2d6359;
+    background-color: #b192a3;
+    font-family: monospace;
+}	
+img{
+    width: 273px;
+    height: 238px;
+    border-radius: 20% 32%;
+    border: 3px solid #3f6148;
+    border-top: 6px solid #3f6148;
+    border-bottom: 18px solid #3f6148;
+	padding: 6px 12px;
+}
+.right-img{
+    float: right; /* Выравнивание по правому краю. Обтекание текстом*/ 
+    margin: 10px 5px 5px 10px;
+    height: 190px;
+    border: none;
+    padding: 0px;
+}
+.left-img{ 
+    float: left; /* Выравнивание по левому краю. Обтекание текстом*/
+    margin: 5px 5px 5px 0px;
+    height: 190px;
+    border: none;
+    padding: 0px;
+}
+iframe{
+display: block;
+margin: auto;
+}
+.recipe{
+    text-align: center; /*расположение поценту можно задать для текста. картинкам и т.д. display: block; margin: auto;*/
+    border: 3px solid #deceb0;
+    border-radius: 29px;
+    padding: 16px;
+    margin: 20px 0;
+    font-size: 49px;
+    color: #f1ef9e;
+    background-color: rgba(180, 152, 212, 0.6);
+}
+ul li{
+	list-style-type: lower-alpha;
+	text-decoration: underline;
+	font-family: URW Chancery L, cursive;
+	font-size: 30px;
+	color: #374165;
+}
+.colorFood{
+	color: #f1ef9e;
+}
+#wrapper{
+    background: rgba(226, 129, 129, 0.6);
+    width: 95%; /*блок занимает 95% от body*/
+    border: 7px double #e2d79e;
+    border-radius: 56px;
+    padding: 25px 50px;
+    margin: 30px auto; /*Размещает блок посередине - auto справа и слева*/
+    box-sizing: border-box;
+}
+#citrus{
+	background: url('../img/lemon.jpg');
+	text-align: center;
+}
+#citrus ul{
+display: none; /*скрываем список*/
+}
+#citrus:hover ul{
+display: block; /*При наведении курсора блок (наш список ввиде строчно-блочного элемента) появляется сос своими заданными свойствами через класс*/
+}
+.fruits{
+    display: inline-block; /*Задаем свойства списку: строчно-блочный элемент*/
+    border: 1px solid #65b35a;
+    padding: 43px;
+    margin: 17px 5px;
+    border-radius: 72px 104px;
+    border-top: 12px dashed #65b35a;
+    border-bottom: 7px solid #65b35a;
+}
+header{
+    border: 4px solid #ad1616;
+    color: #147938;
+    background: #75dab9;
+    min-height: 50px; /*высота блока будет от 50px и до его размера по содержимому.*/
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+main{
+    border: 5px solid #0f1665;
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box; /*Размер блока включает в себя контент,отступ внутренний, рамку. Становится гибким.*/
+    float: left;
+    background: rgba(241, 231, 112, 0.4);
+}
+aside{
+	border: 4px solid #cb95d2;
+    width: 30%;
+    min-height: 400px;
+    padding: 10px;
+    box-sizing: border-box; /*Размер блока включает в себя контент,отступ внутренний, рамку. Становится гибким.*/
+    float: right;
+    background: rgba(197, 183, 14, 0.4);
+}
+.clear{
+clear: both;
+}
+footer{
+    border: 4px solid #9c9fb1;
+    color: #c9e4c9;
+    background: rgba(10, 16, 29, 0.2);
+    min-height: 50px;
+    padding: 10px;
+}
+#header_name{
+    color: #8a0e0e;
+    font-size: 70px;
+    text-align: center;
+    margin: 10px;
+}
+header a{
+    color: #7be683;
+    border: 2px solid #ad2369;
+    background: #176915;
+    display: inline-block; /*Преобразовываем строчный элемент в строчно-блочный*/
+    padding: 10px 20px;
+    transition: .3s cubic-bezier(0.17, 0.16, 0.25, 0.96); /*Эффект перехода м/д 2мя состоянимями элемента*/
+}
+header a:hover{
+	color: grey;
+	border: 7px solid pink; /*Ссылка при наведении*/
+	background: yellow;
+}
+table{
+    width: 100%; /*ширина таблицы*/
+}
+td, th{
+    padding: 3px;
+    border: 1px solid black;
+}
+th{
+    background: #b0e0e6;
+}
