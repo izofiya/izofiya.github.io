@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Travel</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Cabin+Sketch|Cedarville+Cursive|Great+Vibes|Lobster|Spirax|Ultra|Amatic+SC|Monoton|Notable|Cinzel+Decorative" 
+		rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<img id="img-header" src="img/img-header.png" alt="img-header"/>
+				<h1>Travel Dream</h1>
+				<form action="test.php" method="POST">
+					<input type="search" placeholder="Поиск по сайту..." name="q"/>
+					<input type="Submit" value="Ok"/>
+				</form>
+				<div id="a-right">
+					<a href="index.html">Главная</a>
+					<a href="page2.html">О нас</a>
+					<a href="page3.html">Контакты</a>
+				</div>
+			</header>
+			<aside id="left-aside">
+				<h3>Курорты:</h3>
+				<h4>Мальдивские острова</h4>
+				<p>В этом краю вечного лета настоящий тропический рай и все условия для 
+				беззаботной жизни. Коралловые острова с белоснежным мельчайшим песком, обрамлённые зеленью пальм 
+				и окруженные тёплыми и невероятно чистыми водами.</p><img src="img/image3.jpg" alt="image3"/>
+				<h4>Сейшельские острова - жемчужиной Индийского океана</h4>
+				<p> Здесь путешественник непременно найдёт живописнейшие пляжи, фантастически красивый подводный мир, 
+				познавательные и развлекательные экскурсии по островам пешком, на волах, на велосипеде или машине, роскошную рыбалку.</p>
+				<img src="img/image2.jpg" alt="image2"/>
+				<h4>Бора-Бора(Французская Полинезия)</h4>
+				<p>Остров Бора-Бора находится во Французской Полинезии. Его окружает невероятно красивая лагуна, границами которой являются 
+				коралловые рифы и вереница крохотных необитаемых островков. На острове есть даже три потухших вулкана. Этот остров прославился 
+				великолепными курортами среди полинезийских деревушек.</p><img src="img/image1.jpg" alt="image1"/>
+			</aside>
+			<main>
+				<h2>Горящие туры в Египет</h2>
+				<p>Самые выгодные цены на <span>горящие туры в Египет</span> из Минска!</p>
+				<p>Круглый год радуем своих туристов отличными предложениями и ценами на  Египет! Путешествуя с нами, Вы получаете не только 
+				качественное обслуживание у профессиональных менеджеров нашего агентства, Вы получаете – релакс в ЛУЧШИХ отелях на побережье 
+				Красного моря по самым приятным  ценам!</p>
+				<form>
+					<input type="submit" class="sendsubmit" name="send" value="Отправить заявку на подбор тура"/>
+				</form>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/iL51QC_NAb8" 
+				allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<h2>Условия получения скидки на тур 25%</h2>
+				<ul>
+					<li>Скидку может получить абсолютно все туристы, приобретающие тур в нашей компании.</li>
+					<li>Скидка распространяется на все туры, подобранные нашими менеджерами для Вас.</li>
+					<li>Скидка 25% рассчитывается от базовой стоимости тура (не включен топливный сбор (актуально только для вылетов из Минска) и стоимость виз).</li>
+					<li>Скидка не учитывается при приобретении экскурсионных туров, оформление виз и так далее.</li>
+				</ul>
+			</main>
+			<aside id="right-aside">
+				<h4>Подбор тура:</h4>
+					<form action="test.php" method="POST">
+						Дата заезда:<br/>
+						C<input type="date"/><br/>
+						До<input type="date"/><br/>
+						Количество ночей: <br/>
+						От<input type="number" name="number" placeholder="1" min="1"/><br/>
+						До <input type="number" name="number" placeholder="1" min="1"/>
+						<input type="text" placeholder="Ваше имя" name="name"/><br/>
+						<input type="number" placeholder="(+375 _ _)" name="number"/><br/>
+						<input id="send-aside" type="submit" name="send" value="Подобрать тур"/>
+					</form>
+				<img id="travel" src="img/img-asid2.jpg" alt="travel"/>
+				<p>Путешествия - единственная вещь, покупая которую становишься богаче.</p>
+			</aside>
+			<div id="clear"></div>
+			<footer>
+			&copy; Zoya Pleskatsevich, 2018<address>Беларусь, Минск</address>
+			Коммерческое использование материалов сайта запрещено.
+			</footer>
+		</div>
+		<img id="phone" src="img/phone.png" alt="phone"/>
+	</body>
+</html>
