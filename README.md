@@ -1,2 +1,2 @@
-# izofiya.github.io
+# Zoya Pleskatsevich
 My first published site
