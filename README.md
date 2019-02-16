@@ -3,4 +3,7 @@
 # Zoya Pleskatsevich
 My first published site
 
-[My site](izofiya.github.io/FirstSite/ "Hello!")
+[My first site](izofiya.github.io/FirstSite/ "My first site")
+
+My second published site
+[My second site](izofiya.github.io/siteAboutCuisines/ "My second site")
