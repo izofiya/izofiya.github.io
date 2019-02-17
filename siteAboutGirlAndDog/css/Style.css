@@ -1,0 +1,244 @@
+﻿#wrapper{
+	width: 768px;
+    margin: 0 auto;
+}
+body{
+    min-width: 320px; /*размер телефона*/
+}
+header a{
+	color: #f6dde3;
+    display: inline-block;
+    font-size: 12px;
+	font-family: Arial;
+	text-decoration: none;
+	padding: 13px 0;
+}
+header a:after{
+    content: '|';
+    padding: 10px;
+}
+header a:last-child:after{
+	content: ' '; /*убираем последний вертикальную прямую последнего элемента*/
+    margin-left: 50px;
+}
+header{
+	background: #7a2e40;
+    text-align: right;
+	min-height: 40px;
+	box-shadow: 0 12px 18px -8px rgba(0, 0, 0, 0.08);
+}
+h1{
+    color: #fa7a98;
+    margin: 0;
+    padding: 15px 0 0;
+    font-size: 18px;
+    font-family: Georgia;
+}
+h1 span{
+	color: #97616d;
+	font-size: 18px;
+	font-family: Georgia;
+}
+.left-img{
+    float: left;
+    margin: 15px 15px 15px 46px;
+    width: 44px;
+    height: 46px;
+    border: none;
+    padding: 0px;
+}
+#p_paw{
+    margin: 0;
+    padding: 5px;
+	font-size: 12px;
+	font-family: Arial;
+}
+main p{
+    padding-left: 5px;
+    font-size: 12px;
+	font-family: Arial;
+}
+main{
+	width: 60%;
+	min-height: 200px;
+	float: left;
+	box-sizing: border-box; /*Размер блока включает в себя контент,отступ внутренний, рамку. Становится гибким.*/
+}
+.div1_main{
+    margin: 41px 0 0 41px;
+    padding: 0px 10px;
+    background: #f9f9f9;
+    border: 2px solid #f4f1f2;
+}
+
+main h2{
+	color: #7a2e40;
+	font-size: 14px;
+	font-family: Arial;
+}
+hr{
+    width: 92%;
+    margin-left: 2px;
+}
+main ul{
+	color: #fe7b9a;
+    font-size: 12px;
+    font-family: Arial;
+    list-style-type: square;
+    padding-left: 20px;
+}
+li span{
+color: black;
+}
+.div2_main{
+    margin-left: 47px;
+    padding-top: 10px;
+}
+.div2_main p{
+	padding: 10px 0;
+	margin: 0;
+
+}
+.left-Dog{
+	float: left;
+    margin: 13px 10px 0px 0px;
+    width: 85px;
+    height: 108px;
+    border: 2px solid #f4f1f2;
+    padding: 1%;
+}
+aside{
+	width: 40%;
+	min-height: 300px;
+	float: right;
+	box-sizing: border-box; /*Размер блока включает в себя контент,отступ внутренний, рамку. Становится гибким.*/
+}
+.Girl-img{
+    width: 184px;
+    display: block;
+    margin: 15px auto 0 auto;
+    box-shadow: 0 12px 18px -8px rgba(0, 0, 0, 0.08);
+}
+#div1_aside{
+	margin: 30px;
+}
+aside h2{
+	margin-left: 30px;
+    margin-bottom: 0;
+    color: #7a2e40;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: bold;
+}
+#p1_aside{
+	font-size: 12px;
+    margin: 10px 28px;
+    font-family: Arial;
+}
+aside ul li:before{
+	content: ' ';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url(../images/Paw22.png);
+    background-size: cover;
+    vertical-align: sub;
+    margin-right: 10px;
+    padding: 2px;
+}
+aside ul{
+    color: #a43b55;
+    background: #f9f9f9;
+    border: 2px solid #f4f1f2;
+    width: 86%;
+    margin-left: 23px;
+    box-sizing: border-box;
+    padding: 10px 0px 20px 15px;
+    font-size: 12px;
+    text-decoration: underline;
+    font-family: Arial;
+}
+aside ul li{
+	list-style-type: none;
+}
+.clear{
+	clear: both;
+}
+footer{
+    background: #f9f9f9;
+    border: 2px solid #f4f1f2;
+    margin: 20px auto 0 auto;
+    font-size: 12px;
+    font-family: Arial;
+}
+footer p{
+margin: 13px 0 0 42px;
+}
+footer ul{
+    padding: 0;
+    margin: 5px 0 15px 42px;
+}
+footer ul li{
+	display: inline-block;
+	text-align: left;
+}
+footer a{
+color: #a8465e;
+}
+footer a:not(#container):after{
+    content: '|';
+    padding: 5px;
+    color: black;
+}
+
+@media(max-width: 767px){
+    #wrapper {
+       background: rgba(255, 0, 0, 0.6);
+	   width: 90%;
+	}
+	aside ul {
+		width: 95%;
+		margin: 10px 0;
+		font-size: 9px;
+	}
+}
+@media (max-width: 600px) {
+    #wrapper {
+        width: 80%;
+        padding: 20px 15px;
+    }
+	header{
+	    padding-right: 15px;
+	}
+	header a{
+		font-size: 8px;
+		}
+	header a:after{
+		padding: 0 3px;
+	}
+	header a:last-child:after{
+		margin-left: 0px;
+	}	
+    main, aside {
+        float: none;
+        width: auto;
+    }
+	.div2_main{
+    margin: 0 40px 0 40px;
+	}
+	.div1_main {
+    margin: 41px 41px 0 41px;
+	}
+	.Girl-img{
+    width: 50%;
+    display: block;
+    margin: 15px auto 0 auto;
+    box-shadow: 0 12px 18px -8px rgba(0, 0, 0, 0.08);
+}
+	footer ul{
+		margin: 0 5px;
+	}
+	footer p{
+		margin: 5px;
+	}
+}
