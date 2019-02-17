@@ -1,5 +1,5 @@
 (function () {
-    let weatherUrl = 'http://api.openweathermap.org/data/2.5/forecast?q=Minsk,by&units=metric&APPID=11946a85ee67815615487da027c7e9d1&lang=ru';
+    let weatherUrl = 'https://api.openweathermap.org/data/2.5/forecast?q=Minsk,by&units=metric&APPID=11946a85ee67815615487da027c7e9d1&lang=ru';
     let divFiveDays = document.querySelector(".fiveDays");
     let pCityClass = document.querySelector(".cityClass");
     let pDateClass = document.querySelector(".dateClass");
@@ -14,7 +14,7 @@
      } 
      function showIcon(icon, elem){
         const imgIcon = document.createElement('img');
-        imgIcon.src = 'http://openweathermap.org/img/w/' + icon + '.png';
+        imgIcon.src = 'https://openweathermap.org/img/w/' + icon + '.png';
         elem.appendChild(imgIcon);
         } 
     function getWeather(Url) {
