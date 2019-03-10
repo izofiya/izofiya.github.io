@@ -20,3 +20,7 @@ My fourth published site
 My fifth published site
 
 [My fifth site](https://izofiya.github.io/weatherApp/ "My fifth site")
+
+My published resume
+
+[My resume](https://izofiya.github.io/rsschool-2019Q1-cv/ "My resume")
