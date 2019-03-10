@@ -1,0 +1,19 @@
+.wrapp {
+    background-color: #c6c7a7;
+    width: 1024px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.photo {
+    margin: 0 auto;
+    width: 300px;
+}
+
+img {
+    border-radius: 105px;
+}
