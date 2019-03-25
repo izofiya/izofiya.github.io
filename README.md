@@ -23,4 +23,10 @@ My fifth published site
 
 My published resume
 
-[My resume](https://izofiya.github.io/rsschool-2019Q1-cv/ "My resume")
+[My resume](https://izofiya.github.io/rsschool-2019Q1-cv/ "My resume")  
+
+My website created by template  
+
+[Website created by template](https://izofiya.github.io/websiteCreatedByComplate/ "Website created by template")  
+
+
