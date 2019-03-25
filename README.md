@@ -27,6 +27,6 @@ My published resume
 
 My website created by template  
 
-[Website created by template](https://izofiya.github.io/websiteCreatedByComplate/ "Website created by template")  
+[Website created by template](https://izofiya.github.io/websiteCreatedByTemplate/ "Website created by template")  
 
 
