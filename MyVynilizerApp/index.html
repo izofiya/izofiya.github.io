@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vynilizer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Vinylizer</h1>
+    <div class="vynilizer">
+        <button id="startButton">Start</button>
+        <div id="info">Track time</div>
+        <div class="divImg">
+            <img id="img1" src="./images/cog1.png" alt="cog1">
+            <div id="spanTextOfTrack"></div>
+        </div>
+    </div>
+    <div class="divPlayList">
+            <div id="divText">
+                    <p>При нажатии на кнопку включения, пластинка крутится, играет музыка.</p> 
+                    <p>Второй клик по включателю останавливает вращение и ставит трек на паузу. </p> 
+                    <p> По завершении трека вращение пластинки проигрыватель надо выключить. </p> 
+                    <p>Следующее включение запустит трек с начала. Можно выбрать один из нескольких треков. </p> 
+                    <p>На проигрывателе должен быть индикатор с текущим временем трека до миллисекунд.</p> 
+                    <p>Название трека выводится текстом по кругу на этикетке пластинки.</p> 
+                </div>
+        <h2>Playlist</h2>
+        <ul id="audioList"></ul>
+        
+    </div>
+    <div class="clear"></div>
+    <audio id="myAudio">
+        <source src="audio/bruno.mp3" type="audio/mpeg">
+    </audio>
+    
+    
+    <script src="./src/index.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <title>Vynilizer</title>
+        <script>
+            var looper;
+            var degrees = 0;
+            function rotateAnimation(el, speed) {
+                var elem = document.getElementById(el);
+                
+                    elem.style.transform = "rotate(" + degrees + "deg)";
+             
+                looper = setTimeout("rotateAnimation('" + el + "'," + speed + ")", speed);
+                degrees++;
+                if (degrees > 359) {
+                    degrees = 1;
+                }
+                document.getElementById("status").innerHTML = "rotate(" + degrees + "deg)";
+            }
+        </script>
+</head>
+
+<body>
+	<img id="img1" src="./images/cog1.png" alt="cog1" width="300">
+	<script>
+		rotateAnimation("img1", 50);
+	</script>
+	<h2 style="width:200px;" id="status"></h2>
+</body>
+
+</html> -->
